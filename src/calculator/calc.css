@@ -1,0 +1,137 @@
+/* calculator.css */
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+    background-size: 400% 400%;
+    animation: rainbow 10s linear infinite;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+    .input-container {
+      margin-bottom: 10px;
+    }
+    
+    input {
+      width: 80%;
+      padding: 15px;
+      font-size: 18px;
+      color: #34495e;
+      background-color: #ecf0f1;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      text-align: right;
+    }
+    
+    .button-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    
+    /* Different colors for each button */
+    button:nth-child(1) {
+      background-color: #e74c3c; /* Red */
+    }
+    
+    button:nth-child(2) {
+      background-color: #3498db; /* Blue */
+    }
+    
+    button:nth-child(3) {
+      background-color: #2ecc71; /* Green */
+    }
+    
+    button:nth-child(4) {
+      background-color: #f39c12; /* Orange */
+    }
+    
+    button:nth-child(5) {
+      background-color: #9b59b6; /* Purple */
+    }
+    
+    button:nth-child(6) {
+      background-color: #1abc9c; /* Turquoise */
+    }
+    
+    button:nth-child(7) {
+      background-color: #d35400; /* Pumpkin */
+    }
+    
+    button:nth-child(8) {
+      background-color: #3498db; /* Blue */
+    }
+    
+    button:nth-child(9) {
+      background-color: #f39c12; /* Orange */
+    }
+    
+    button:nth-child(10) {
+      background-color: #9b59b6; /* Purple */
+    }
+    
+    button:nth-child(11) {
+      background-color: #1abc9c; /* Turquoise */
+    }
+    
+    button:nth-child(12) {
+      background-color: #d35400; /* Pumpkin */
+    }
+    
+    button:nth-child(13) {
+      background-color: #2ecc71; /* Green */
+    }
+    
+    button:nth-child(14) {
+      background-color: #e74c3c; /* Red */
+    }
+    
+    button:nth-child(15) {
+      background-color: #33ff00; /* Light Gray */
+    }
+    
+    button:nth-child(16) {
+      background-color: #34495e; /* Dark Gray */
+      color: #000000;
+    }
+    
+    button {
+      width: 100%;
+      padding: 15px;
+      font-size: 16px;
+      color: #000000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #2980b9;
+    }
+    
+    .result-container {
+      margin-top: 10px;
+    }
+    
+    p {
+      color: #000000;
+      font-size: 16px;
+      margin: 0;
+    }
+    
