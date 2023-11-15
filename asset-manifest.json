@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Tp1_react.git/static/css/main.ff1ae76a.css",
-    "main.js": "/Tp1_react.git/static/js/main.c3b27c9b.js",
-    "static/js/787.38f16daf.chunk.js": "/Tp1_react.git/static/js/787.38f16daf.chunk.js",
-    "index.html": "/Tp1_react.git/index.html",
-    "main.ff1ae76a.css.map": "/Tp1_react.git/static/css/main.ff1ae76a.css.map",
-    "main.c3b27c9b.js.map": "/Tp1_react.git/static/js/main.c3b27c9b.js.map",
-    "787.38f16daf.chunk.js.map": "/Tp1_react.git/static/js/787.38f16daf.chunk.js.map"
+    "main.css": "/Tp1_react/static/css/main.ff1ae76a.css",
+    "main.js": "/Tp1_react/static/js/main.16f93dbd.js",
+    "static/js/787.38f16daf.chunk.js": "/Tp1_react/static/js/787.38f16daf.chunk.js",
+    "index.html": "/Tp1_react/index.html",
+    "main.ff1ae76a.css.map": "/Tp1_react/static/css/main.ff1ae76a.css.map",
+    "main.16f93dbd.js.map": "/Tp1_react/static/js/main.16f93dbd.js.map",
+    "787.38f16daf.chunk.js.map": "/Tp1_react/static/js/787.38f16daf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff1ae76a.css",
-    "static/js/main.c3b27c9b.js"
+    "static/js/main.16f93dbd.js"
   ]
 }
