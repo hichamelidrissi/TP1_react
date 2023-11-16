@@ -7,21 +7,23 @@ const Calculator = () => {
   const [input, setInput] = useState('');
   const [result, setResult] = useState('');
 
-  const handleButtonClick = (value) => {
-    if (value === '=') {
-      try {
-        setResult(eval(input).toString());
-      } catch (error) {
-        setResult('Error');
-      }
-    } else if (value === 'C') {
-      setInput('');
-      setResult('');
-    } else {
-      setInput((prevInput) => prevInput + value);
-      setResult(''); // Clear the result when a new input is entered
+const handleButtonClick = (value) => {
+  if (value === '=') {
+    try {
+      const expression = new Function('return ' + input);
+      setResult(expression().toString());
+    } catch (error) {
+      setResult('Error');
     }
-  };
+  } else if (value === 'C') {
+    setInput('');
+    setResult('');
+  } else {
+    setInput((prevInput) => prevInput + value);
+    setResult(''); // Clear the result when a new input is entered
+  }
+};
+
 
   const buttons = [
     '7', '8', '9', '/',
