@@ -10,7 +10,7 @@ const Calculator = () => {
   const handleButtonClick = (value) => {
     if (value === '=') {
       try {
-        setResult(eval(input).toString());
+        setResult((input).toString());
       } catch (error) {
         setResult('Error');
       }
